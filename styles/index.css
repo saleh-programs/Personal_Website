@@ -1,0 +1,11 @@
+body{
+  margin-top: 150px;
+  background-color: rgb(243, 220, 117);
+}
+.container{
+  min-height: 700px;
+}
+
+#root{
+  position: relative;
+}

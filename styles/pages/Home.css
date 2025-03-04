@@ -1,0 +1,87 @@
+.page{
+  background-color: rgb(192, 169, 188);
+  position: relative;
+  border: 5px dotted rgb(51, 15, 71);
+  border-radius: 20px;
+  margin: 80px 50px 80px 50px;
+  height: 65vh;
+  display: flex;
+  padding: 70px 100px 60px 100px;
+}
+.website-title{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -80px;
+  font-family: 'Barlow';
+  font-size: 50px;
+  white-space: nowrap;
+}
+.page-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px 0px 50px;
+}
+.img{
+  position: relative;
+  background-image: url('../../src/assets/images/murad5.JPEG');
+  background-size: 100% ;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  flex:2;
+  border: 1px solid;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.img img{
+  border-radius: 80px;
+}
+
+.img-info{
+  flex: 1;
+  border: 1px solid black;
+  background-color: rgb(41, 35, 35);
+  color: white;
+  font-size: 25px;
+  padding: 40px;
+  font-family: 'Daruma';
+  border-radius: 80px;
+}
+.img-info ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.content{
+  color: white;
+  background-color: rgb(41, 35, 35);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  padding: 60px;
+  height: 500px;
+  border-radius: 50px;
+}
+.page-right{
+  padding: 0px 50px 0px 50px;
+  position: relative;
+  flex: 2;
+  border-radius: 60px;
+  height: 300px;
+}
+.aboutme{
+  color: black;
+  position: absolute;
+  font-family: 'Barlow';
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+.separator{
+  /* margin: 0px 60px 0px 60px; */
+  border: 2px dotted rgb(49, 49, 49);
+}

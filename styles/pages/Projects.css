@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Daruma';
+  src: url('../../src/assets/fonts/DarumadropOne-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('../../src/assets/fonts/Sigmar-Regular.ttf') format('truetype');
+}
+
+ .projectsintro{
+  border: 1px solid;
+  margin-inline: 20%;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Daruma';
+  background-color: rgb(218, 206, 206);
+
+ }
+ .projectsintro-title{
+  text-align: center;
+  font-size: 45px;
+ }
+ .hz-separator{
+  border: 1px solid rgb(68, 67, 67);
+ }
+ .projectsintro-info{
+  padding-inline: 40px;
+  text-align: center;
+  font-size: 35px;
+ }
+
+.topimages img{
+  width: 40%;
+  overflow: hidden;
+  border-radius: 60px;
+  margin-inline: 20px;
+  margin-bottom: 40px;
+}
+
+.concepts, .description{
+  flex: 1;
+  font-size: .8em;
+  overflow: hidden;
+
+ }
+ .description{
+  padding-inline: 1%;
+ }
+ .concepts{
+  padding-inline: 6%;
+ }
+ h2{
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+  text-decoration: underline;
+  font-size: 1.4em;
+ }
