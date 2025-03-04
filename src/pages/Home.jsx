@@ -14,7 +14,7 @@ function Home(){
             <li></li>
             <li>Age: 20 </li>
             <li>Email:  hl4178@wayne.edu</li>
-            <li>GitHub | LinkedIn | Handshake</li>
+            <li><a href="https://github.com/saleh-programs" target='_blank'>Github</a> | <a href="https://www.linkedin.com/in/murad-saleh-674722254/" target='_blank'>LinkedIn</a> | <a href="https://app.joinhandshake.com/profiles/7a79aj" target='_blank'>Handshake</a></li>
           </ul>
         </div>
       </div>

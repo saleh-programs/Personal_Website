@@ -184,13 +184,13 @@ function InnerContent(props){
         <div className='inside'>
           <div className='rowcontainer'>
             <div style={{flex:'1',fontSize:'.8em'}}>
-              Working in an ice cream store didn't put me anywhere near software, but rather new people on a daily basis. 
+              Working in an ice cream store didn't involve software, but rather meeting new people on a daily basis. It consisted of: 
               <ul>
                 <li>Resolving customer conflicts</li>
                 <li>Coordinating with a team</li>
-                <li>Fast paced environment</li>
-                <li>Quick and Critical thinking</li>
-                <li>Quick and Efficient solutions</li>
+                <li>A fast paced environment</li>
+                <li>Quick and critical thinking</li>
+                <li>Quick and efficient solutions</li>
                 <li>Efficient communication</li>
               </ul>
 
