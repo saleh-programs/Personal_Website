@@ -13,7 +13,7 @@ function Experience(){
       <div className='hz-separator'>
       </div>
       <div className='experienceintro-info'>
-        On the left, find information on my employment history and job experience, excluded any project-related work.  {/*as well as experience I have working in teams for various projects.*/}
+        On the left, find information on employment history and job experience, excluding any project-related work.  {/*as well as experience I have working in teams for various projects.*/}
         <br/><br/>
         On the right, find skills showcasing my capabilities.
 
