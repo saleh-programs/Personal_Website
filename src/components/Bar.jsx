@@ -1,5 +1,26 @@
 import { useState,useEffect,useRef } from 'react';
 import '../../styles/components/Bar.css'
+
+import tractor from '../assets/images/tractor.png'
+import wsu from '../assets/images/wsu.png'
+import C from '../assets/images/C.png'
+import Java from '../assets/images/Java.png'
+import Python from '../assets/images/Python.png'
+import YAA from '../assets/images/YAA.jpeg'
+import Rosa from '../assets/images/rosa.jpeg'
+import car1 from '../assets/images/carMain1.jpg'
+import car2 from '../assets/images/carMain2.gif'
+import car3 from '../assets/images/carMain3.gif'
+import pygame1 from '../assets/images/pygame1.gif'
+import pygame2 from '../assets/images/pygame2.gif'
+import pygame3 from '../assets/images/pygame3.gif'
+import pygame4 from '../assets/images/pygame4.gif'
+import decisionTree from '../assets/images/DecisionTree.jpg'
+import ANN from '../assets/images/ANN.jpg'
+import TreeAndANN from '../assets/images/TreeAndANN.jpg'
+import lagelati from '../assets/images/lagelati.jpg'
+import hat from '../assets/images/hat.jpg'
+
 function InnerContent(props){
   if (props.id == 'fordson'){
     return(
@@ -10,7 +31,7 @@ function InnerContent(props){
             <a href='src/assets/documents/fordsonTranscript.pdf' target='_blank'>Official Transcript</a>
           </div>
           <div className='right'>
-            <img src='src/assets/images/tractor.png' alt="not found" />
+            <img src={tractor} alt="not found" />
           </div>
         </div>
       </div>
@@ -27,7 +48,7 @@ function InnerContent(props){
               <a href='src/assets/documents/wayneTranscript.pdf' target='_blank'>Official Transcript</a>
             </div>
             <div className='right'>
-              <img style={{'overflow':'hidden','width':'350px'}} src= 'src/assets/images/wsu.png' alt="yuh" />
+              <img style={{'overflow':'hidden','width':'350px'}} src= {wsu} alt="yuh" />
             </div>
           </div>
           <div className='rowcontainer'>
@@ -43,9 +64,9 @@ function InnerContent(props){
           </div>
           <div className='right'>
             <div style={{'display':'flex',justifyContent:'center',alignItems: 'center','height':'100%'}}>
-              <img style={{'width':'350px'}} src='src/assets/images/C.png' alt="not found" />
-              <img style={{'width':'350px'}} src='src/assets/images/Java.png' alt="npt found" />
-              <img style={{'width':'250px'}} src='src/assets/images/Python.png' alt="npt found" />
+              <img style={{'width':'350px'}} src={C} alt="not found" />
+              <img style={{'width':'350px'}} src={Java} alt="npt found" />
+              <img style={{'width':'250px'}} src={Python} alt="npt found" />
             </div>
           
           </div>
@@ -66,7 +87,7 @@ function InnerContent(props){
             </div>
           </div>
           June 2022
-          <img className='right' style={{width:'20%'}} src="src/assets/images/rosa.jpeg" alt="" />
+          <img className='right' style={{width:'20%'}} src={Rosa} alt="" />
         </div>
           <div className='rowcontainer'>
           <div className='left'>
@@ -76,7 +97,7 @@ function InnerContent(props){
             </div>
           </div>
           August 2022
-          <img className='right' style={{width:'20%'}} src="src/assets/images/YAA.jpeg" alt="" />
+          <img className='right' style={{width:'20%'}} src={YAA} alt="" />
           </div>
         </div>
       </div>
@@ -86,9 +107,9 @@ function InnerContent(props){
       <div className='inside'>
         <div className='columncontainer'>
           <div className='rowcontainer topimages'>
-            <img src='src/assets/images/carMain1.jpg' alt="" />
-            <img src='src/assets/images/carMain2-ezgif.com-optimize.gif' alt="" />
-            <img src='src/assets/images/carMain3-ezgif.com-optimize.gif' alt="" />
+            <img src={car1} alt="" />
+            <img src={car2} alt="" />
+            <img src={car3} alt="" />
           </div>
           <div className='rowcontainer'>
             <div className='description'>
@@ -117,10 +138,10 @@ function InnerContent(props){
       <div className='inside'>
         <div className='columncontainer'>
           <div className='rowcontainer topimages'>
-            <img src='src/assets/images/pygame1-ezgif.com-optimize.gif' alt="" />
-            <img src='src/assets/images/pygame2-ezgif.com-optimize.gif' alt="" />
-            <img src='src/assets/images/pygame3-ezgif.com-optimize.gif' alt="" />
-            <img src='src/assets/images/pygame4-ezgif.com-optimize.gif' alt="" />
+            <img src={pygame1} alt="" />
+            <img src={pygame2} alt="" />
+            <img src={pygame3} alt="" />
+            <img src={pygame4} alt="" />
           </div>
           <div className='rowcontainer'>
             <div className='description'>
@@ -153,9 +174,9 @@ function InnerContent(props){
       <div className='inside'>
         <div className='columncontainer'>
           <div className='rowcontainer topimages'>
-            <img src='src/assets/images/DecisionTree.jpg' style={{width:'25%' }} alt="" />
-            <img src='src/assets/images/ANN.jpg'alt="" />
-            <img src='src/assets/images/TreeAndANN.jpg' alt="" />
+            <img src={decisionTree} style={{width:'25%' }} alt="" />
+            <img src={ANN}alt="" />
+            <img src={TreeAndANN} alt="" />
           </div>
           <div className='rowcontainer'>
             <div className='description'>
@@ -196,8 +217,8 @@ function InnerContent(props){
 
             </div>
             <div className='workimages' style={{flex:'1'}}>
-              <img src='src/assets/images/lagelati.jpg' alt="" />
-              <img src='src/assets/images/hat.jpg' style={{width:'30%'}} alt="" />
+              <img src={lagelati} alt="" />
+              <img src={hat} style={{width:'30%'}} alt="" />
 
             </div>
           </div>
