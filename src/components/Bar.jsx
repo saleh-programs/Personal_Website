@@ -20,6 +20,8 @@ import ANN from '../assets/images/ANN.jpg'
 import TreeAndANN from '../assets/images/TreeAndANN.jpg'
 import lagelati from '../assets/images/lagelati.jpg'
 import hat from '../assets/images/hat.jpg'
+import fordTranscript from "../assets/documents/fordsonTranscript.pdf"
+import wayneTranscript from "../assets/documents/wayneTranscript.pdf"
 
 function InnerContent(props){
   if (props.id == 'fordson'){
@@ -28,7 +30,7 @@ function InnerContent(props){
         <div className='rowcontainer'>
           <div className='left'>
             GPA: 3.9 / 4.0 <br/>
-            <a href='src/assets/documents/fordsonTranscript.pdf' target='_blank'>Official Transcript</a>
+            <a href={fordTranscript} target='_blank'>Official Transcript</a>
           </div>
           <div className='right'>
             <img src={tractor} alt="not found" />
@@ -45,7 +47,7 @@ function InnerContent(props){
             <div className='left'>
               Major: Computer Science<br/>
               GPA: 4.0 / 4.0 <br/>
-              <a href='src/assets/documents/wayneTranscript.pdf' target='_blank'>Official Transcript</a>
+              <a href={wayneTranscript} target='_blank'>Official Transcript</a>
             </div>
             <div className='right'>
               <img style={{'overflow':'hidden','width':'350px'}} src= {wsu} alt="yuh" />
