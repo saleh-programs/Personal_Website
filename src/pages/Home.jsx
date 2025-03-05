@@ -22,11 +22,9 @@ function Home(){
 
       </div>
       <div className="page-right">
-        <div className="content">
-          Hello! My name is Murad Saleh. This is a site I built to show my projects, experience, education, and a few other things that employers may be looking for.
-          <br/><br/>
-          I'm looking for opportunities to grow my skills in the software industry while still exploring which areas fit me best. I'm eager for a chance to get started!
-        </div>
+        Hello! My name is Murad Saleh. This is a site I built to show my projects, experience, education, and a few other things that employers may be looking for.
+        <br/><br/>
+        I'm looking for opportunities to grow my skills in the software industry while still exploring which areas fit me best. I'm eager for a chance to get started!
         <div className="aboutme">
           About Me
         </div>
@@ -34,5 +32,5 @@ function Home(){
     </div>
   );
 }
-
+ 
 export default Home;
