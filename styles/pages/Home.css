@@ -4,7 +4,7 @@
   border: 5px dotted rgb(51, 15, 71);
   border-radius: 20px;
   margin: 80px 50px 80px 50px;
-  minheight: 65vh;
+  min-height: 65vh;
   display: flex;
   padding: 4.1em 4em 60px 3em;
 }
@@ -23,19 +23,17 @@
   flex-direction: column;
   padding: 0px 50px 0px 50px;
 }
+
 .img{
-  position: relative;
   background-image: url('../../src/assets/images/murad5.JPEG');
   background-size: 100% ;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-
-  flex:2;
+  background-size: cover;
+  min-height: 400px;
+  border: 1px solid;
   border-radius: 50px;
   margin-bottom: 30px;
-}
-.img img{
-  border-radius: 80px;
 }
 
 .img-info{

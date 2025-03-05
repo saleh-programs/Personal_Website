@@ -8,6 +8,7 @@ function Home(){
       <div className="page-left">
         <div className="img">
         </div>
+
         <div className="img-info">
           <ul>
             Computer Science student at Wayne State University<br/><br/>
