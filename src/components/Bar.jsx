@@ -118,7 +118,8 @@ function InnerContent(props){
               <h2 >Description</h2>
               Get reminders to service your vehicle and keep track of what needs maintenance!
               <br/><br/>
-              Gained skills in backend and frontend development, along with REST APIs and databases.
+              Gained skills in backend and frontend development, along with REST APIs and databases.<br/>
+              <a href="https://github.com/saleh-programs/Car_Maintenance.git" target='_blank'>Github Repo</a>
             </div>
             <div className='concepts'>
               <h2>Concepts & Technologies</h2>
@@ -128,7 +129,6 @@ function InnerContent(props){
                 <li>User database (SQLite)</li>
                 <li>Frontend (React)</li>
                 <li>Backend (NodeJS/Express)</li>
-                <li>More soon...</li>
               </ul>
               </div>
           </div>
@@ -150,7 +150,8 @@ function InnerContent(props){
               <h2>Description</h2>
               A Hollow Knight inspired game made in Pygame with custom animations! The player can slash, shoot, and swing faced against enemies with unique logic!
               <br/><br/>
-              Gained skills navigating a large project and working with more complex solutions.
+              Gained skills navigating a large project and working with more complex solutions.<br/>
+              <a href="https://github.com/saleh-programs/Platformer_Game.git" target='_blank'>Github Repo</a>
             </div>
             <div className='concepts'>
               <h2>Concepts & Technologies</h2>
@@ -183,9 +184,10 @@ function InnerContent(props){
           <div className='rowcontainer'>
             <div className='description'>
               <h2>Description</h2>
-              Used 2 machine learning models (ANN and Decision Tree) to analyze trends in individual CPI sectors (gasoline, food, energy, etc.) and predict if overall inflation will rise. The F1 scores for both models are provided.<br/><br/>
+              Used 2 machine learning models (ANN and Decision Tree) to analyze trends in individual CPI sectors (gasoline, food, energy, etc.) and predict if overall inflation will rise. The F1 scores (performance scores) for both models are provided.<br/><br/>
               ANN model: 92% <br/>
-              Decision Tree Model: 80%
+              Decision Tree Model: 80%<br/>
+              <a href="https://github.com/saleh-programs/Inflation_Predictor.git" target='_blank'>Github Repo</a>
             </div>
             <div className='concepts'>
               <h2>Concepts & Technologies</h2>

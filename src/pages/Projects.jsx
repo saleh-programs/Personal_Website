@@ -14,7 +14,8 @@ function Projects(){
         <hr className='hz-separator'>
         </hr>
         <div className='projectsintro-info'>
-          This page provides a general breakdown of various personal projects I've worked on. A description and list of involved concepts is provided.
+          This page provides a general breakdown of various personal projects I've worked on. A description and list of involved concepts is provided.<br/><br/>
+          Select an option to learn more!
         </div>
       </div>
       <Bar name='Car Maintenance App' id= 'carmaintenance'/>

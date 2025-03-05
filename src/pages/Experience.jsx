@@ -14,8 +14,9 @@ function Experience(){
       </div>
       <div className='experienceintro-info'>
         On the left, find information on employment history and job experience, excluding any project-related work.  {/*as well as experience I have working in teams for various projects.*/}
-        <br/><br/>
-        On the right, find skills showcasing my capabilities.
+        <br/>
+        On the right, find skills showcasing my capabilities.<br/><br/>
+        Select an option to learn more!
 
       </div>
     </div>
@@ -42,7 +43,7 @@ function Experience(){
               <li>Frontend Web Development</li>
               <li>Backend Web Development</li>
               <li>Game Development</li>
-              <li>Maachine Learning</li>
+              <li>Machine Learning</li>
               <li>Pandas, Numpy, Matplotlib, Tensorflow, Scikit-learn</li>
               <li>Algorithms</li>
               <li>Data Structures</li>
@@ -50,10 +51,10 @@ function Experience(){
               <li>Excel</li>
               <li>PowerPoint</li>
               <li>Word</li>
-              <li>English/Arabic</li>
               <li>Team Collaboration</li>
               <li>Team Leadership</li>
               <li>Customer Support</li>
+              <li>English/Arabic</li>
             </ul>
           </div>
         </div>

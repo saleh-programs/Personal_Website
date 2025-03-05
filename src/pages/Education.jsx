@@ -15,7 +15,9 @@ function Education(){
         <hr className='hz-separator'>
         </hr>
         <div className='educationintro-info'>
-          A brief breakdown of education and academic achievements that I am proud to have received.
+          A brief breakdown of education and academic achievements that I am proud to have received.<br/><br/>
+          Select an option to learn more!
+
         </div>
       </div>
       <Bar id='fordson' name="Fordson High School" date="09/2018 - 04/2022"/>
