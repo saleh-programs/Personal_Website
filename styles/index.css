@@ -1,11 +1,61 @@
-body{
-  margin-top: 150px;
-  background-color: rgb(243, 220, 117);
+@font-face {
+  font-family: 'Daruma';
+  src: url('/fonts/DarumadropOne-Regular.ttf') format('truetype');
 }
-.container{
-  min-height: 700px;
+@font-face {
+  font-family: 'Barlow';
+  src: url('/fonts/Sigmar-Regular.ttf') format('truetype');
 }
 
-#root{
-  position: relative;
+*{
+  box-sizing: border-box;
+}
+
+html, #root, body{
+  height: 100%;
+  margin: 0;
+  font-size: 30px;
+}
+
+.page-container {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  background-color: rgb(243, 220, 117);
+  min-height: 100vh;    
+  padding-top: 80px;
+}
+
+.routes{
+  flex: 1;
+}
+
+.footer{
+  flex: 1;
+}
+
+.rowcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+    gap: 10px;
+}
+
+.columncontainer{
+  display: flex;  
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+@media (max-width: 1100px){
+  .page-container{
+    margin-top: 150px;
+  }
+}
+@media (max-width:500px){
+  .page-container{
+    margin-top: 0px;
+  }
 }

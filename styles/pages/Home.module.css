@@ -1,0 +1,147 @@
+.title{
+  font-family: "Barlow";
+  text-align: center;
+  font-size: 1.6rem;
+}
+.card{
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 94%;
+  border: 5px dotted rgb(51, 15, 71);
+  border-radius: 20px;
+  background-color: rgb(192, 169, 188);
+  margin: auto;
+  padding: 50px 50px;
+}
+.card-left{
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.portrait{
+  width: auto;
+  border-radius: 190px;
+  overflow: hidden;
+  border: 2px solid;
+}
+.portrait img{
+  display: block;
+  width: 450px;
+  height: 370px;
+  object-fit: cover;
+  object-position: center -25px;
+}
+.info{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: rgb(41, 35, 35);
+  color: white;
+  font-size: .7rem;
+  font-family: "Franklin Gothic Medium";
+  list-style-type: none;
+  line-height: 40px;
+}
+.info ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.separator{
+  flex: 0 0 0px;
+  align-self: stretch;
+  border: 4px dotted rgb(49, 49, 49);
+  margin: 0px 30px;
+}
+
+.card-right{
+  position: relative;
+  flex: 2;
+  font-family:'Franklin Gothic Medium';
+  color: white;
+  word-break: normal;
+}
+.aboutme{
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-family: "Barlow";
+  font-size: 1rem;
+}
+.description{
+  font-size: 1.5rem;
+  background-color: rgb(41, 35, 35);
+    border: 1px solid;
+
+  border-radius: 30px; 
+  padding: 35px;
+  margin-bottom: 20px;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  font-size: .7rem;
+  text-decoration: none;
+}
+
+a{
+  color:rgb(6, 6, 84);
+}
+
+@media (max-width:1100px){
+  .title{
+    line-height: 45px;
+  }
+  .card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .separator{
+    margin: 50px;
+  }
+}
+@media (max-width:500px){
+  .title{
+    line-height: 50px;
+  }
+  .card{
+    background-color: transparent;
+    border: none;
+    padding: 1px;
+    width: 100%;
+  }
+  .card-left{
+    width: 100%;
+  }
+  .portrait{
+    border-radius: 50px;
+
+  }
+  .portrait img{
+    width: 300px;
+    height: 300px;
+  }
+  .info{
+    width: 100%;
+  }
+  .separator{
+    margin: 50px;
+  }
+  .description{
+    font-size: 1rem;
+  }
+}

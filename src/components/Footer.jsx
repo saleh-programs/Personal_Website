@@ -1,4 +1,4 @@
-import '../../styles/components/Footer.css'
+import styles from '../../styles/components/Footer.module.css'
 import { useRef, useState } from 'react';
 import emailjs from "@emailjs/browser";
 
@@ -19,19 +19,19 @@ function Footer(){
     setTimeout(()=>{
       setAffirmation("")
     },5000)
-  }
+  } 
   return(
-    <div className='footer'>
-        <div className='footerinfo'>
+    <div className={styles.footer}>
+        <div className={styles.footerinfo}>
           Thank you for visiting my site! Would you mind leaving some anonymous feedback? What did you like or dislike? This will be sent to my personal email (salehm0529@gmail.com) which I check regularly. I would really appreciate it!
         </div>
-        <textarea ref={textBox} placeholder='Enter Feedback' id="feedback" rows="6" cols="50" wrap="soft" onChange={updateFeedback}></textarea>
-        <button id="submitfeedback" onClick={handleClick}>Send Feedback</button>
-        <div className='message'>
+        <textarea className={styles.feedback} ref={textBox} placeholder='Enter Feedback'  rows="6" cols="50" wrap="soft" onChange={updateFeedback}></textarea>
+        <button className={styles.submitfeedback} onClick={handleClick}>Send Feedback</button>
+        <div className={styles.message}>
           {affirmation}
         </div>
     </div>
   )
 }
 
-export default Footer;
+export default Footer; 

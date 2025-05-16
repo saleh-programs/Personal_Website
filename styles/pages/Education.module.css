@@ -1,0 +1,52 @@
+.intro{
+  border: 1px solid;
+  margin-inline: 20%;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Daruma';
+  background-color: rgb(218, 206, 206);
+
+ }
+ .title{
+  text-align: center;
+  font-size: 45px;
+ }
+ .hz-separator{
+  border: 1px solid rgb(68, 67, 67);
+ }
+ .info{
+  padding-inline: 40px;
+  text-align: center;
+  font-size: 35px;
+ } 
+
+@media (max-width:1100px) {
+  .intro{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 1rem;
+  }
+  .title{
+    font-size: 1.2rem;
+  }
+  .info{
+    font-size: .8rem;
+  }
+
+}
+ 
+ @media (max-width:500px) {
+  .intro{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .title{
+    font-size: 1rem;
+  }
+  .info{
+    font-size: .5rem;
+  }
+ }

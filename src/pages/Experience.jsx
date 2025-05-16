@@ -1,34 +1,34 @@
 import {useState,useRef,useEffect} from 'react'
-import '../../styles/pages/Experience.css'
+import styles from '../../styles/pages/Experience.module.css'
 
 import Bar from '../components/Bar.jsx'
 
 function Experience(){
   return(
     <>
-    <div className='experienceintro'>
-      <div className='experienceintro-title'>
+    <div className={styles.intro}>
+      <div className={styles.title}>
         Experience and Skills
       </div>
-      <div className='hz-separator'>
+      <div className={styles['hz-separator']}>
       </div>
-      <div className='experienceintro-info'>
-        On the left, find information on employment history and job experience, excluding any project-related work.  {/*as well as experience I have working in teams for various projects.*/}
+      <div className={styles.info}>
+        Find information on employment history and job experience, excluding any project-related work. 
         <br/>
-        On the right, find skills showcasing my capabilities.<br/><br/>
+        Also, see skills showcasing my capabilities.<br/><br/>
         Select an option to learn more!
-
       </div>
     </div>
-    <div className='rowcontainer'>
-        <div className='left' style={{flex:'4'}}>
+
+    <div className={styles.page_divider}>
+        <div style={{flex:'4'}}>
           <Bar id='lagelati' name="La Gelati Ice Cream" date="09/2021-10/2022"/>
-          </div>
-        <div className='right' style={{flex:'1'}}>
-          <div className='skills'>
+        </div>
+        <div style={{flex:'1'}}>
+          <div className={styles.skills}>
             <h1 style={{textAlign:'center',}}>Skills</h1>
-            <hr className='hz-separator'></hr>
-            <ul style={{fontSize:'20px'}}>
+            <hr className={styles['hz-separator']}></hr>
+            <ul>
               <li>Python</li>
               <li>Java</li>
               <li>C++</li>
@@ -58,7 +58,6 @@ function Experience(){
             </ul>
           </div>
         </div>
-      
     </div>
   </>
   );
