@@ -43,7 +43,7 @@
   background-color: rgb(41, 35, 35);
   color: white;
   font-size: .7rem;
-  font-family: "Franklin Gothic Medium";
+  font-family:'Franklin Gothic Medium', 'Franklin Gothic Medium Mobile';
   list-style-type: none;
   line-height: 40px;
 }
@@ -63,7 +63,7 @@
 .card-right{
   position: relative;
   flex: 2;
-  font-family:'Franklin Gothic Medium';
+  font-family:'Franklin Gothic Medium', 'Franklin Gothic Medium Mobile';
   color: white;
   word-break: normal;
 }
