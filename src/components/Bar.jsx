@@ -163,7 +163,7 @@ function InnerContent(props){
           <div className={"rowcontainer"}>
             <div className={styles.description}>
               <h2 >Description</h2>
-              A game designed to help phsyics students improve at solving kinematics based physics problems! Join Willow on a journey gliding through the air and sprinting on foot, all while solving word problems related to his situation. Maybe you'll even get to chat with him if you do well enough!
+              A game designed to help physics students improve at solving kinematics based physics problems! Join Willow on a journey gliding through the air and sprinting on foot, all while solving word problems related to his situation. Maybe you'll even get to chat with him if you do well enough!
               <br/><br/>
               The game contains 10 levels of progressing difficulty and 3 questions each. Level 10 connects to the OpenAI API to allow you to chat with Willow.<br/><br />
               <a href="https://github.com/saleh-programs/Physics_Practice_Game" target='_blank'>Github Repo</a>
@@ -248,7 +248,7 @@ function InnerContent(props){
                 <li>Artificial Neural Networks</li>
                 <li>Decision Trees</li>
                 <li>Data preprocessing</li>
-                <li>Data visualzation</li>
+                <li>Data visualization</li>
                 <li>Libraries: Keras / TensorFlow / SKlearn/Pandas / Matplotlib</li>
                 <li>Created in Python</li>
               </ul>

@@ -121,7 +121,7 @@
     width: 85%;
   }
   .inside{
-    padding-inline: 30px;
+    padding-inline: 20px;
   }
   .inside img{
     width:50%;
@@ -147,6 +147,9 @@
   .bar{
     font-size: .4rem;
     padding-top: 20px;
+  }
+  .inside{
+    padding-inline: 10px;
   }
   .inside h2{
 
