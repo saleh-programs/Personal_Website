@@ -19,9 +19,9 @@ function Education(){
           Select an option to learn more!
         </div>
       </div>
-      <Bar id='fordson' name="Fordson High School" date="09/2018 - 04/2022"/>
-      <Bar id='wayne' name="Wayne State University" date="09/2022 - 04/2026"/>
-      <Bar id='achievements' name="Academic Achievements" date=""/>
+      <Bar name="Fordson High School" contentID='fordson' date="09/2018 - 04/2022"/>
+      <Bar name="Wayne State University" contentID='wayne' date="09/2022 - 04/2026"/>
+      <Bar name="Academic Achievements" contentID='achievements' date=""/>
     </> 
   );
 } 

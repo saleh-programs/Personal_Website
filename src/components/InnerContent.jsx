@@ -187,7 +187,7 @@ function FileAdventurerProject(){
                 <li>Track Recent Folders</li>
                 <li>Search Entries</li>
                 <li>Tree Mode: View all entries in a traditional nested environment</li>
-                <li>Stack Mode: View the hierarchial structure of a specific path</li>
+                <li>Stack Mode: View the hierarchical structure of a specific path</li>
               </ul>
               <a href="https://github.com/saleh-programs/FileAdventurer.git" target='_blank'>Github Repo</a>
             </div>

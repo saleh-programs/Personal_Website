@@ -1,7 +1,7 @@
 import {useState,useRef,useEffect} from 'react'
 import styles from '../../styles/pages/Experience.module.css'
-
 import Bar from '../components/Bar.jsx'
+
 
 function Experience(){
   return(
@@ -22,7 +22,7 @@ function Experience(){
 
     <div className={styles.page_divider}>
         <div style={{flex:'4'}}>
-          <Bar id='lagelati' name="La Gelati Ice Cream" date="09/2021-10/2022"/>
+          <Bar name="La Gelati Ice Cream" contentID='laGelati' date="09/2021-10/2022"/>
         </div>
         <div style={{flex:'1'}}>
           <div className={styles.skills}>

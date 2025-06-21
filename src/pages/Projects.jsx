@@ -17,10 +17,11 @@ function Projects(){
           Select an option to learn more!
         </div>
       </div>
-      <Bar name='Car Maintenance App' id= 'carmaintenance' link={["Try the website!","https://carmaintenanceproject.netlify.app/"]}/>
-      <Bar name='Physics Practice Game' id= 'physicsgame' link={["Download / Play the game!","./downloads/PhysicsPracticeGame.zip"]}/>
-      <Bar name='Platformer Game' id= 'pygame'/>
-      <Bar name=' Inflation Predictor with ML' id= 'stockmarket'/>
+      <Bar name='Car Maintenance App' contentID= 'carMaintenance' link={["Try the website!","https://carmaintenanceproject.netlify.app/"]}/>
+      <Bar name='File Adventurer' contentID= 'fileAdventure' link={["Download / Play the game!","./downloads/PhysicsPracticeGame.zip"]}/>
+      <Bar name='Physics Practice Tool' contentID= 'physicsTool' link={["Download / Play the game!","./downloads/PhysicsPracticeGame.zip"]}/>
+      <Bar name='Platformer Game' contentID= 'platformer'/>
+      <Bar name=' Inflation Predictor with ML' contentID= 'stockMarket'/>
     </>
   )};  
 
