@@ -26,7 +26,7 @@ html, #root, body{
   gap: 50px;
   margin-top: 30px;
   flex-direction: column;
-  background-color: rgb(243, 220, 117);
+  background: linear-gradient(to right, rgb(168, 138, 1), rgb(243, 220, 117));
   min-height: 100vh;    
   padding-top: 80px;
 }
