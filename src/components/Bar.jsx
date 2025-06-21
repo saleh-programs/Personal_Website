@@ -34,7 +34,7 @@ function Bar({name, contentID, date, link}){
             {link 
             ? 
               <div>
-                <a href={link[1]} target='_blank_'>{link[0]}</a>
+                <a href={link[1]} target='_blank'>{link[0]}</a>
               </div>
             :
               <div>
