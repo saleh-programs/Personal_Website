@@ -18,7 +18,7 @@ function Projects(){
         </div>
       </div>
       <Bar name='Car Maintenance App' contentID= 'carMaintenance' link={["Try the website!","https://carmaintenanceproject.netlify.app/"]}/>
-      <Bar name='File Adventurer' contentID= 'fileAdventure' link={["Try the desktop app!","https://github.com/saleh-programs/FileAdventurer/raw/master/FileAdventurerSetup.exe"]}/>
+      <Bar name='File Adventurer' contentID= 'fileAdventure' link={["Try the Windows desktop app!","https://github.com/saleh-programs/FileAdventurer/raw/master/FileAdventurerSetup.exe"]}/>
       <Bar name='Physics Practice Tool' contentID= 'physicsTool' link={["Download / Play the game!","./downloads/PhysicsPracticeGame.zip"]}/>
       <Bar name='Platformer Game' contentID= 'platformer'/>
       <Bar name=' Inflation Predictor with ML' contentID= 'stockMarket'/>

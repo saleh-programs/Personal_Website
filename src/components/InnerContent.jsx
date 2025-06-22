@@ -189,6 +189,7 @@ function FileAdventurerProject(){
                 <li>Tree Mode: View all entries in a traditional nested environment</li>
                 <li>Stack Mode: View the hierarchical structure of a specific path</li>
               </ul>
+              <span style={{color:'red'}}><span style={{fontSize:'1.5em'}}>NOTE:</span> Your download of the app's installer may be flagged by antivirus tools such as Microsoft Defender. I have no ill intent, these warnings only appear because they are less likely to trust apps that haven't purchased a signed certificate. </span><br />
               <a href="https://github.com/saleh-programs/FileAdventurer.git" target='_blank'>Github Repo</a>
             </div>
             <div className={styles.concepts}>
